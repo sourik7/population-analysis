@@ -43,5 +43,5 @@ plot1=px.pie(
     title='pie chart for male and female population'
 )
 
-plot.show()
-plot1.show()
+st.plotly_chart(plot)
+st.plotly_chart(plot1)

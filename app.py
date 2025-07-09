@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(layout='wide')
 st.markdown('POPULATION DASHBOARD')
-df=pd.read_csv('E:\statepopulation\codes\dataset\state_wise_population__2019.csv')
+df=pd.read_csv('state_wise_population__2019.csv')
 st.dataframe(df)
 
 State=df['State'].unique()
